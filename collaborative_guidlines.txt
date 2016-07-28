@@ -62,3 +62,28 @@ https://www.w3.org/WAI/intro/wcag
 
 
 
+
+
+
+
+
+Reports
+
+Docs: 
+can actually translate docs, was surprising. 
+some issues saving to different formats (some formatting can be lost, esp with footnotes and embedded images / graphs)
+doesn't really have a "collaboration center" to manage everything from one place 
+uses audio to indicate a new message in chat (users can turn off) 
+options are reachable by keyword, but hard to tell which one you have selected
+no specific "private" or "personal" area for documents that are not shared. Instead just a documents or folder view and each document can have its sharing settings customized. 
+no way to get notification digests when users change things, notifications only available when a user makes a comment on something
+
+Sheets: 
+no language translation, but might not apply to this app 
+does allow notification digests when users change things 
+supports Filter Views so that users can filter the spreadsheet without affecting other users 
+graphs did not come through when saving to xlsx
+
+
+
+
