@@ -1,0 +1,64 @@
+global sources: 
+http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
+https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
+https://hci.stanford.edu/publications/2003/tabletopguidelines/tabletopguidelines.pdf
+https://www.w3.org/WAI/intro/wcag
+
+
+*** Collaborative Document Editors *** 
+
+* Navigating to the form to add collaborators should only take one to two clicks. 
+
+* Designate one easily reachable area to all collaboration / sharing configurations.  
+
+* A document owner should be able to set various permissions on individual collaborators. Permissions include:  
+	* Grant/deny editing 
+	* Grant/deny the collaborator from adding other collaborators 
+	* Grant/deny the collaborator from printing/downloading the document 
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+
+* Collaborators should be able to specify the level of alerts they get regarding the document. Such as:  
+	* A comment has been added to the document  
+	* The document has been deleted or renamed 
+	* Batch alerts about edits (eg, daily digest indicating X edits were made that day) 
+
+* Collaborators should be able to view revision history for a document.  
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+
+* Document owners should be able to revert the document to a previous version. 
+
+* Users should be able to control their own view, such that when another user switches views, it does not affect other users. 
+--SOURCE: https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
+
+* Allow users to customize view settings, such as zoom level without affecting other users.
+--SOURCE: https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
+
+* Avoid using audio for alerts or indications to users. 
+--SOURCE: http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
+--		  Somervell, J., Wahid, S., and McCrickard, D. S. Usability heuristics for large screen information exhibits. In Proc. Interact’03, IOS Press (2003), 904–907.
+
+* Allow users to separate personal / non-shared documents from shared / collaborative ones. 
+--SOURCE: https://hci.stanford.edu/publications/2003/tabletopguidelines/tabletopguidelines.pdf
+
+* Offer chat within the document so that collaborators can discuss edits, ect
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+
+* Support multiple file formats
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+
+* Support collaboration across multiple languages
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+
+* For spreadsheet editors, allow users to lock specific cells from editing even if the document itself is shared. 
+
+* Options should be reachable by keyboard only. 
+	* Selected options should be indicated with some form of highlighting of sufficient contract to indicate an option is active.
+--SOURCE: https://www.w3.org/WAI/intro/wcag
+
+
+
+
+
+
+
