@@ -1,4 +1,10 @@
 *** Collaborative Document Editors *** 
+* Use last-edit wins to resolve simultaneous edit conflicts
+--SOURCE: https://en.wikipedia.org/wiki/Operational_transformation
+--EVIDENCE: 3
+--IMPACT: 5
+--COMMENT: With simultaneous editing, simply let the last edit win and users can sort out conflicts themselves by using versioning, chat, and permissions features. Last-edit itself can be misleading when considering the technical aspects of simultaneous editing. For example, if user 1 and user 2 are editing document "abc" and user 1 adds "x" to position 0 of "abc" and user 2 deletes the "c" from abc (ie, deletes position 2 in a 0-based position system), then we'd expect the result to be "xab". But if we simply send edits without transforming them based on other edits, we'd get the unexpected "xac". Transforming simultaneous edits based on other edits is called Operational Transformation and is recommended here. 
+
 * Navigating to the form to add collaborators should only take one to two clicks. 
 --EVIDENCE: 1
 --IMPACT: 3
@@ -177,6 +183,11 @@
 
 
 
+*** Multi User Drawing *** 
+
+
+
+
 
 
 Reports
@@ -189,6 +200,7 @@ uses audio to indicate a new message in chat (users can turn off)
 options are reachable by keyword, but hard to tell which one you have selected
 no specific "private" or "personal" area for documents that are not shared. Instead just a documents or folder view and each document can have its sharing settings customized. 
 no way to get notification digests when users change things, notifications only available when a user makes a comment on something
+Docs uses operational transformation to handle simultaneous edits 
 
 Sheets: 
 no language translation, but might not apply to this app 
@@ -209,6 +221,10 @@ Provides users the capability to see which of their contacts are currently onlin
 Has screen sharing 
 Users are able to block other contacts 
 Users can call into a Skype meeting 
+
+NetSketch: 
+
+
 
 
 
