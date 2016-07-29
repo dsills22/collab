@@ -1,14 +1,4 @@
-global sources: 
-http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
-http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
-https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
-https://hci.stanford.edu/publications/2003/tabletopguidelines/tabletopguidelines.pdf
-https://www.w3.org/WAI/intro/wcag
-https://www.imsglobal.org/accessibility/accessiblevers/sec7.html
-
-
 *** Collaborative Document Editors *** 
-
 * Navigating to the form to add collaborators should only take one to two clicks. 
 --EVIDENCE: 1
 --IMPACT: 3
