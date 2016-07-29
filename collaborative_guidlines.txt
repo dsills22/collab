@@ -4,63 +4,185 @@ http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
 https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
 https://hci.stanford.edu/publications/2003/tabletopguidelines/tabletopguidelines.pdf
 https://www.w3.org/WAI/intro/wcag
+https://www.imsglobal.org/accessibility/accessiblevers/sec7.html
 
 
 *** Collaborative Document Editors *** 
 
 * Navigating to the form to add collaborators should only take one to two clicks. 
+--EVIDENCE: 1
+--IMPACT: 3
+--COMMENT: It is important for a collaborative software to make it easy to collaborate with others. 
 
-* Designate one easily reachable area to all collaboration / sharing configurations.  
+* Designate one easily reachable area to all collaboration / sharing configurations.
+--EVIDENCE: 1
+--IMPACT: 3
+--COMMENT: It is important for a collaborative software to make it easy to collaborate with others. 
 
 * A document owner should be able to set various permissions on individual collaborators. Permissions include:  
 	* Grant/deny editing 
 	* Grant/deny the collaborator from adding other collaborators 
 	* Grant/deny the collaborator from printing/downloading the document 
 --SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 3
+--IMPACT: 5
+--COMMENT: Users will not share documents if they cannot control permissions. 
 
 * Collaborators should be able to specify the level of alerts they get regarding the document. Such as:  
 	* A comment has been added to the document  
 	* The document has been deleted or renamed 
 	* Batch alerts about edits (eg, daily digest indicating X edits were made that day) 
+--EVIDENCE: 1
+--IMPACT: 2
+--COMMENT: It is nice for users to be able to opt-in to notifications. 
 
 * Collaborators should be able to view revision history for a document.  
 --SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 4
+--IMPACT: 3
+--COMMENT: For larger projects, it is important to be able to view the versions of a document. 
 
 * Document owners should be able to revert the document to a previous version. 
+--SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 4
+--IMPACT: 3
+--COMMENT: For larger projects, it is important to be able to revert to previous versions of a document. 
 
 * Users should be able to control their own view, such that when another user switches views, it does not affect other users. 
 --SOURCE: https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: Users will quickly become frustrated with a collaborative environment that changes drastically without their input. 
 
 * Allow users to customize view settings, such as zoom level without affecting other users.
 --SOURCE: https://www.researchgate.net/publication/277503101_Multi-User_Usability_Guidelines_for_Interactive_Wall_Display_Applications
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: Users need to be able to control their view, but not affect others' view. 
 
 * Avoid using audio for alerts or indications to users. 
 --SOURCE: http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
 --		  Somervell, J., Wahid, S., and McCrickard, D. S. Usability heuristics for large screen information exhibits. In Proc. Interact’03, IOS Press (2003), 904–907.
+--EVIDENCE: 3
+--IMPACT: 1
 
 * Allow users to separate personal / non-shared documents from shared / collaborative ones. 
 --SOURCE: https://hci.stanford.edu/publications/2003/tabletopguidelines/tabletopguidelines.pdf
+* Avoid using audio for alerts or indications to users. 
+--SOURCE: http://people.cs.vt.edu/mccricks/papers/SWM03.pdf
+--EVIDENCE: 3
+--IMPACT: 2
+--COMMENT: Users tend to organize their work into personal and professional categories. Try to give them this intuitive choice in your collaborative software as well. 
 
 * Offer chat within the document so that collaborators can discuss edits, ect
 --SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 5
+--IMPACT: 4
+--COMMENT: Users are more productive when they can communicate about their work. 
 
 * Support multiple file formats
 --SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: It is vital for users to be able to share their documents across many formats as teams might use different OSes, reside in different countries that use different popular file formats, etc. 
 
 * Support collaboration across multiple languages
 --SOURCE: http://www.academia.edu/266456/Using_Google_s_apps_for_the_collaborative_construction_refinement_and_formalization_of_knowledge
+--EVIDENCE: 4
+--IMPACT: 3
+--COMMENT: For international teams, it is very important to have this feature, but if your team all speaks the same language then of course this feature is not as important. 
 
 * For spreadsheet editors, allow users to lock specific cells from editing even if the document itself is shared. 
+--EVIDENCE: 1
+--IMPACT: 2
+--COMMENT: It is nice for users to be able to have more granular control over shared spreadsheets. 
 
 * Options should be reachable by keyboard only. 
 	* Selected options should be indicated with some form of highlighting of sufficient contract to indicate an option is active.
 --SOURCE: https://www.w3.org/WAI/intro/wcag
+--EVIDENCE: 4
+--IMPACT: 5
+--COMMENT: For accessibility reasons, all options should be reachable by keyboard as well as mouse. 
 
 
 
 
+*** Multi User Video Communication *** 
+* Users should be able to block contacts from reaching them. 
+--SOURCE: http://www.pewinternet.org/2014/10/22/online-harassment/
+--      : http://jiv.sagepub.com/content/19/4/468.short
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: Research shows that 40% of web users have experienced online harassment. Of those who have been harassed, 8% have been physically threatened, 8% have been stalked, 22% have been specifically targeted for embarassment, and 27% have been subjected to offensive name-calling. It is important to protect users from online harassment. Giving users the ability to block other users facilitates a safe environment for them. 
 
+* Provide a text chat application so that users can communicate via text as well as video to share documents, photos, links, etc. 
+--SOURCE: https://hbr.org/2014/04/how-a-weekly-meeting-took-up-300000-hours-a-year/
+--      : http://www.statista.com/statistics/258749/most-popular-global-mobile-messenger-apps/
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: A study found that a certain company consumes over 300,000 total employee hours per year in meetings to prepare for a larger meeting. Using video chats with text-chat and document sharing support can greatly cut down on long meetings. Text chat is also a ubiquitous feature in collaborative applications, so most users expect to have it because they are accustomed to having it available. 
 
+* Users should be able to access a real-time text transcript of the conversation. 
+--SOURCE: https://www.imsglobal.org/accessibility/accessiblevers/sec7.html
+--EVIDENCE: 5
+--IMPACT: 3
+--COMMENT: This is an important feature for international or large-venue applications. However, it is only helpful in international applications if the text is also translated to a given language. 
+
+* Use a video encoding format that supports American Sign Language (ASL) intelligibility. 
+--SOURCE: https://www.imsglobal.org/accessibility/accessiblevers/sec7.html
+--      : http://www.ncbi.nlm.nih.gov/pubmed/18416521
+--      : http://dl.acm.org/citation.cfm?id=2522017
+--EVIDENCE: 5
+--IMPACT: 4
+--COMMENT: Capturing and sending ASL so that it is intelligible is a difficult engineering task. Be sure to investigate which video encoding and transmission technologies can best help you support transferring intelligible ASL through your software. 
+
+* Allow users to only use the keyboard.
+--SOURCE: https://www.w3.org/WAI/intro/wcag
+--EVIDENCE: 4
+--IMPACT: 5
+--COMMENT: For accessibility reasons, all actions should be reachable by keyboard as well as mouse. 
+
+* Provide a translation service for users to communitcate across different languages. 
+--SOURCE: https://hbr.org/2012/08/speak-to-global-customers-in-t.html
+--      : http://www.commonsenseadvisory.com/portals/_default/knowledgebase/articleimages/060926_r_global_consumer_preview.pdf
+--EVIDENCE: 5
+--IMPACT: 3
+--COMMENT: The vast majority of consumers prefer advertisements, product information, sales pitches, and virtually any form of communication in their own language. 
+
+* Ensure help content is easily accessible
+--EVIDENCE: 1
+--IMPACT: 5
+--COMMENT: It is important for users to easily and quickly access help content in case they are having trouble navigating your software. 
+
+* Allow screen sharing
+--SOURCE: https://en.wikipedia.org/wiki/Web_conferencing
+--		: https://techcrunch.com/2010/05/15/skype-screen-sharing
+--EVIDENCE: 5
+--IMPACT: 4
+--COMMENT: For corporate environments, this is a must-have for sales demos and support. 
+
+* Allow users to quickly and easily share contacts with one-another 
+--SOURCE: https://en.wikipedia.org/wiki/Bump_(application)
+--EVIDENCE: 2
+--IMPACT: 4
+--COMMENT: As evidenced by the quick popularity of the Bump application, users desire a way to quickly and easily share contact information. 
+
+* Allow users to create group video conversations, not just one-to-one conversations.
+--SOURCE: https://hbr.org/2014/04/how-a-weekly-meeting-took-up-300000-hours-a-year/
+--      : http://www.statista.com/statistics/193721/us-internet-users-who-have-participated-in-video-calls-or-chats-by-age-group/
+--EVIDENCE: 5
+--IMPACT: 5
+--COMMENT: Remote video group conversations can greatly reduce time wasted in long face-to-face meetings. For non-corporate users, group chats are popular ways for remote groups of friends to keep in touch. 
+
+* Users should be able to call into a meeting with just a phone.
+--EVIDENCE: 1
+--IMPACT: 3
+--COMMENT: It is a nice feature for users to be able to call into a video meeting. 
+
+* Provide users with a way to view contacts that are online. 
+--EVIDENCE: 1
+--IMPACT: 2
+--COMMENT: It is nice for users to see whether or not their friends are currently online. 
 
 
 
@@ -84,6 +206,19 @@ does allow notification digests when users change things
 supports Filter Views so that users can filter the spreadsheet without affecting other users 
 graphs did not come through when saving to xlsx
 
+Skype: 
+Offers text chat 
+Offers group conversations 
+Has the Skype Translator feature, which can translate to different languages and also display a real-time transcript of the conversation
+--Language support could be better
+--SOURCE: http://www.digitaltrends.com/computing/get-instant-text-voice-translation-skype-translator-preview/
+The "New Chat" icon was not accessible via keyboard through tabbing 
+Users can easily share contacts with one-another 
+Help content was buried under too many clicks and opens in a new tab instead of within the app
+Provides users the capability to see which of their contacts are currently online 
+Has screen sharing 
+Users are able to block other contacts 
+Users can call into a Skype meeting 
 
 
 
